@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'MyPod'
-s.version          = '1.0.2'
+s.version          = '1.0.3'
 s.summary          = 'Custom pod creation for iOS'
 s.description      = 'My Pod install using for testing local'
 s.homepage         = 'https://github.com/CSR-Rath/MyPod'
@@ -10,4 +10,6 @@ s.source           = { :git => 'https://github.com/CSR-Rath/MyPod.git', :tag => 
 s.ios.deployment_target = '15.0'
 s.source_files  = "MyPod/**/*.{swift}"
 s.swift_versions = "5.0"
+s.dependency 'MBProgressHUD'
+
 end

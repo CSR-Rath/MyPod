@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'MyPod'
-s.version          = '1.0.3'
+s.version          = '1.0.4'
 s.summary          = 'Custom pod creation for iOS'
 s.description      = 'My Pod install using for testing local'
 s.homepage         = 'https://github.com/CSR-Rath/MyPod'

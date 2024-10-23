@@ -12,5 +12,3 @@ s.source_files  = "MyPod/**/*.{swift}"
 s.swift_versions = "5.0"
 
 end
-
-pod trunk register sophearathchhan@gmail.com 'sophearathchhan' --description='MacBook Pro'

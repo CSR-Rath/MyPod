@@ -10,6 +10,5 @@ s.source           = { :git => 'https://github.com/CSR-Rath/MyPod.git', :tag => 
 s.ios.deployment_target = '15.0'
 s.source_files  = "MyPod/**/*.{swift}"
 s.swift_versions = "5.0"
-s.dependency 'MBProgressHUD'
 
 end

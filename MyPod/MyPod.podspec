@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'MyPod'
-s.version          = '1.0.4'
+s.version          = '2.0.1'
 s.summary          = 'Custom pod creation for iOS'
 s.description      = 'My Pod install using for testing local'
 s.homepage         = 'https://github.com/CSR-Rath/MyPod'
@@ -12,3 +12,5 @@ s.source_files  = "MyPod/**/*.{swift}"
 s.swift_versions = "5.0"
 
 end
+
+pod trunk register sophearathchhan@gmail.com 'sophearathchhan' --description='MacBook Pro'
